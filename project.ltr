@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LTProjectResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <WatchScripts>
+        <WatchScript>
+            <Script>in_TransactionItem[0].ToString()</Script>
+        </WatchScript>
+        <WatchScript>
+            <Script>Element.BrowserElement</Script>
+        </WatchScript>
+        <WatchScript>
+            <Script>Text.Split(':')[1].Split('₽')[0]</Script>
+        </WatchScript>
+        <WatchScript>
+            <Script>io_ProductsInformationDT.Rows[1][0] + "\n" + io_ProductsInformationDT.Rows[1][1] + "\n" + io_ProductsInformationDT.Rows[1][2] + "\n" + io_ProductsInformationDT.Rows[1][3]</Script>
+        </WatchScript>
+        <WatchScript>
+            <Script>int.Parse(ProductPrice,CultureInfo.InvariantCulture)</Script>
+        </WatchScript>
+        <WatchScript>
+            <Script>ProductPrice.Replace((ProductPrice.ToCharArray()[1].ToString()),"")</Script>
+        </WatchScript>
+        <WatchScript>
+            <Script>Regex.Replace(ProductPrice, @"\s","")</Script>
+        </WatchScript>
+    </WatchScripts>
+    <Ignored />
+    <Breakpoints>
+        <KeyValueItem>
+            <Key>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Processes\Browser\CheckingProductInformation.ltw</Key>
+            <Value>017e1765-5284-4c7e-b1ba-a403cd8b2fd8</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Processes\Browser\CheckingProductInformation.ltw</Key>
+            <Value>edeece60-a188-450e-8edd-fc2784dfc766</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Processes\Excel\SaveResultFile.ltw</Key>
+            <Value>a805e4bb-5be0-413d-974d-541101e1dd6b</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Framework\SendResultFile.ltw</Key>
+            <Value>b161d61a-50ce-4c50-85c7-d91b669ef24b</Value>
+        </KeyValueItem>
+    </Breakpoints>
+    <Git />
+    <LastOpenedItems>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Framework\GetTransactionData.ltw</string>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Framework\CloseAllApplications.ltw</string>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Framework\KillAllProcesses.ltw</string>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Framework\InitAllSettings.ltw</string>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Framework\InitAllApplications.ltw</string>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Framework\CreateTransactions.ltw</string>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Processes\Browser\OpenYandexMarket.ltw</string>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Framework\Process.ltw</string>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Main.ltw</string>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Processes\Browser\FindRequiredProduct.ltw</string>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Processes\Browser\CheckingProductInformation.ltw</string>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Framework\SetTransactionStatus.ltw</string>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Framework\RetryCurrentTransaction.ltw</string>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Processes\Excel\SaveResultFile.ltw</string>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Framework\ReadPasswords.ltw</string>
+        <string>C:\Users\BELOV00101_EXT\Documents\Primo\Yandex_Market\Framework\SendResultFile.ltw</string>
+    </LastOpenedItems>
+</LTProjectResources>
